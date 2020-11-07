@@ -1,0 +1,54 @@
+
+.navbar {
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+   
+  .navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+ 
+  .fa-firstdraft {
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
+  }
+  
+  .nav-menu {
+     
+    width: 250px;
+    height: 100vh;
+     
+  }
+
+  .nav-menu2 {
+    background-color: #0860b26;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 20;
+    left:-100%;
+    translate: 850ms;
+  }
+  .nav-menu3 {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+  }
+  
+   
